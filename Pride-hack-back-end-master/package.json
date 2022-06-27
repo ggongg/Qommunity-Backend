@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@google-cloud/speech": "^4.10.2",
+    "@google-cloud/storage": "^5.20.5",
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "buffer-to-arraybuffer": "^0.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ffmpeg-static": "^5.0.0",
+    "ffprobe-static": "^3.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^10.1.0",
+    "get-video-duration": "^4.1.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.16",
+    "pg": "latest",
+    "prompt": "latest",
+    "recordrtc": "^5.6.2",
+    "socket.io": "^4.5.1",
+    "ts-ebml": "^2.0.2",
+    "uuid": "^8.3.2"
+  },
+  "name": "pride-hacks-2022-backend",
+  "description": "pride hacks 2022 backend repo",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "sql": "nodemon sql.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
